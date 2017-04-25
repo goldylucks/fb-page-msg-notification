@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FB Page Message Notification</title>
+</head>
+<body>
+
+  <div id="fb-root"></div>
+  <div>
+    <div class="fb-login-button" scope="read_page_mailboxes,manage_pages" onlogin="window.fbLoginCb()" data-max-rows="1" data-size="icon" data-show-faces="false" data-auto-logout-link="false"></div>
+  </div>
+  
+  <div>
+    <div
+      class="fb-like"
+      data-share="true"
+      data-width="450"
+      data-show-faces="true">
+    </div>
+  </div>
+  <div>
+    <button id="logout">Logout</button>
+  </div>
+  <div>
+    <button id="testAPI">Test API</button>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
